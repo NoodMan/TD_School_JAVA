@@ -1,6 +1,6 @@
 package com.adlinec.td_school.models;
 
-public class Personne {
+public abstract class Personne {
 
     protected String nom;
 

@@ -5,16 +5,16 @@ import com.adlinec.td_school.models.Etudiant;
 import com.adlinec.td_school.models.Evaluation;
 
 public class Programme {
-    public static void main(String[] args) {
 
-       Ecole ecole = new Ecole("1 000 Mission Street");
+  protected static Ecole ecole = new Ecole("1 000 Mission Street");
+
+  public Programme() {
 
 //        ecole.getListeEtudiants().add(new Etudiant("Riri", 12));
 //        ecole.getListeEtudiants().add(new Etudiant("Fifi", 17));
 //        ecole.getListeEtudiants().add(new Etudiant("Loulou", 5));
 
 //        System.out.println(ecole.moyenne());
-
 
       Etudiant riri = new Etudiant("Riri");
       Etudiant fifi = new Etudiant("Fifi");
@@ -35,4 +35,8 @@ public class Programme {
 
         System.out.println(ecole.moyenne());
     }
+
+  public static void main(String[] args) {
+    new Programme();
+  }
 }

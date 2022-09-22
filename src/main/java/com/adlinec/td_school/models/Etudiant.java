@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Etudiant extends Personne {
 
-    protected ArrayList<Evaluation>listeEvaluation = new ArrayList<>();
+    protected ArrayList<Evaluation> listeEvaluation = new ArrayList<>();
 
     public Etudiant(String nom) {
         super(nom);
@@ -17,17 +17,6 @@ public class Etudiant extends Personne {
     public void setListeEvaluation(ArrayList<Evaluation> listeEvaluation) {
         this.listeEvaluation = listeEvaluation;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
     //    protected int noteGlobale;

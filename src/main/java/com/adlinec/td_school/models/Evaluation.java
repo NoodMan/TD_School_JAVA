@@ -7,7 +7,7 @@ public class Evaluation {
 
     protected String matiere;
 
-    protected ArrayList<Evaluation>listeEvaluation = new ArrayList<>();
+    protected ArrayList<Evaluation> listeEvaluation = new ArrayList<>();
 
     public ArrayList<Evaluation> getListeEvaluation() {
         return listeEvaluation;
@@ -17,6 +17,7 @@ public class Evaluation {
         this.listeEvaluation = listeEvaluation;
     }
 
+    // mettre float à la place de int la prochaine fois pour les notes!!
     public Evaluation(int note, String matiere) {
         this.note = note;
         this.matiere = matiere;

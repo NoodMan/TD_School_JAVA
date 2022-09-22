@@ -6,7 +6,7 @@ public class Ecole {
 
     protected String adresse;
 
-    protected ArrayList<Etudiant>listeEtudiants = new ArrayList<>();
+    protected ArrayList<Etudiant> listeEtudiants = new ArrayList<>();
 
     public Ecole(String adresse) {
         this.adresse = adresse;
@@ -20,11 +20,11 @@ public class Ecole {
 //        return somme / listeEtudiants.size();
 //    };
 
-    public float moyenne(){
+    public float moyenne() {
         float somme = 0;
         int countNote = 0;
-        for(Etudiant etudiant : listeEtudiants) {
-            for(Evaluation evaluation : etudiant.getListeEvaluation()){
+        for (Etudiant etudiant : listeEtudiants) {
+            for (Evaluation evaluation : etudiant.getListeEvaluation()) {
                 somme += evaluation.getNote();
                 //countNote ++;
             }

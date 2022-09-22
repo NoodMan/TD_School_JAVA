@@ -18,6 +18,16 @@ public class Etudiant extends Personne {
         this.listeEvaluation = listeEvaluation;
     }
 
+    public float moyenne() {
+        float sommeNote = 0;
+
+        for(Evaluation evaluation : listeEvaluation){
+            sommeNote += evaluation.getNote();
+        }
+        return  sommeNote / listeEvaluation.size();
+    }
+
+
 
     //    protected int noteGlobale;
 //

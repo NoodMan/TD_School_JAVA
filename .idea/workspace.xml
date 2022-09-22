@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cfe85b9-9557-4405-9e87-5ed033c044ae" name="Changes" comment="First Commmit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Programme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Ecole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Diagramme UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Programme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/models/Ecole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/models/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/models/Evaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/models/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Ecole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/Etudiant.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +45,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/adlinec/td_school" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/adlinec/td_school/models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Programme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.adlinec.td_school.Programme" />
+      <module name="TD_School_JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Programme" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663831062471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commmit">
+      <created>1663831378501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663831378501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
